@@ -1,6 +1,6 @@
 import React from "react"
 import "./about.css"
-import myphoto from "./Images/myphoto.jpeg";
+import profilepic from "./Images/anilKumar.jpg";
 
 
 
@@ -16,12 +16,12 @@ return <>
 <div className="row" style={{display:"flex",justifyContent:"center",marginTop:"5px"}}>
   <div className="column">
     <div className="card" style={{display:"flex",justifyContent:"center"}}>
-      <img className="aboutImg" src={myphoto} alt="Jane" style={{height:"220px",width:"50%",marginLeft:"25%"}}/>
+      <img className="aboutImg" src={profilepic} alt="Jane" style={{height:"220px",width:"50%",marginLeft:"25%"}}/>
       <div className="container">
-        <h2>Jaydeep Patidar</h2>
+        <h2>Anil Kumar Patidar</h2>
         <p className="title">MCA</p>
-        <p>Student at National Institute Of Technology, Warangal.</p>
-   
+        <p>Student at National Institute Of Technology, Agartala.</p>
+        <p>Email id : placementdairies@gmail.com</p>
         <p><button className="button">Contact</button></p>
       </div>
     </div>

@@ -1,29 +1,28 @@
 const nodemailer = require("nodemailer");
 
 const sendEmail = async (email, subject, text) => {
-    
+  console.log("Hi");
+  console.log(email,subject,text);    
   try {
     const transporter = nodemailer.createTransport({
-      host: process.env.HOST,
-      service: process.env.SERVICE,
-      port: 465,
-      secure: false,
+      service: 'gmail',
       auth: {
-        user: process.env.USER,
-        pass: process.env.PASS,
-      },
-    });
-
-    await transporter.sendMail({
-      from: process.env.USER,
-      to: email,
-      subject: subject,
-      text: text,
-    });
+          user: process.env.USER,
+          pass: process.env.PASS
+      }
+  });
+  let mailDetails = {
+    from: process.env.USER,
+    to: email,
+    subject: subject,
+    text: text
+};
+    
+    await transporter.sendMail(mailDetails);
     //console.log("email sent sucessfully");
   } catch (error) {
-    //console.log("email not sent");
-    //console.log(error);
+    console.log("email not sent");
+    console.log(error);
   }
 };
 
