@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c6407c3.chunk.css",
+    "main.js": "/static/js/main.ec15e7b6.chunk.js",
+    "main.js.map": "/static/js/main.ec15e7b6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0c648014.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0c648014.js.map",
+    "static/css/2.ecdd39c8.chunk.css": "/static/css/2.ecdd39c8.chunk.css",
+    "static/js/2.aec49490.chunk.js": "/static/js/2.aec49490.chunk.js",
+    "static/js/2.aec49490.chunk.js.map": "/static/js/2.aec49490.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ecdd39c8.chunk.css.map": "/static/css/2.ecdd39c8.chunk.css.map",
+    "static/css/main.0c6407c3.chunk.css.map": "/static/css/main.0c6407c3.chunk.css.map",
+    "static/js/2.aec49490.chunk.js.LICENSE.txt": "/static/js/2.aec49490.chunk.js.LICENSE.txt",
+    "static/media/about.css": "/static/media/about.8f03f977.jpg",
+    "static/media/anilKumar.08c712d3.jpg": "/static/media/anilKumar.08c712d3.jpg",
+    "static/media/interview.9452547c.jpg": "/static/media/interview.9452547c.jpg",
+    "static/media/login.8036f71a.jpg": "/static/media/login.8036f71a.jpg",
+    "static/media/logo.b54aee8e.png": "/static/media/logo.b54aee8e.png",
+    "static/media/profile.a48f23b4.jpg": "/static/media/profile.a48f23b4.jpg",
+    "static/media/profilecard.1fcf5b34.png": "/static/media/profilecard.1fcf5b34.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c648014.js",
+    "static/css/2.ecdd39c8.chunk.css",
+    "static/js/2.aec49490.chunk.js",
+    "static/css/main.0c6407c3.chunk.css",
+    "static/js/main.ec15e7b6.chunk.js"
+  ]
+}
